@@ -165,6 +165,8 @@ var MoviesService = /** @class */ (function () {
         var httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
                 'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Methods': ' GET, POST, PATCH, PUT, DELETE, OPTIONS',
+                'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token',
                 'Content-Type': 'application/json'
             })
         };
