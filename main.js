@@ -161,7 +161,7 @@ __webpack_require__.r(__webpack_exports__);
 var MoviesService = /** @class */ (function () {
     function MoviesService(http) {
         this.http = http;
-        this.endpoint = 'http://demo9595712.mockable.io/getTopFiveMovies';
+        this.endpoint = 'https://demo9595712.mockable.io/getTopFiveMovies';
         var httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
                 'Access-Control-Allow-Origin': '*',
