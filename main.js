@@ -164,6 +164,7 @@ var MoviesService = /** @class */ (function () {
         this.endpoint = 'http://demo9595712.mockable.io/getTopFiveMovies';
         var httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
+                'Access-Control-Allow-Origin': '*',
                 'Content-Type': 'application/json'
             })
         };
